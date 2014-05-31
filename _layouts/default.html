@@ -3,19 +3,14 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-		    <link type="text/css" rel="stylesheet" href="/css/base.css">
+		{% include stylesheets.html %}		    
 	<title>{{ page.title }}</title>
 	</head>
 	<body>
 	
 
-	{% include navbar.html %}
-
-		<section id="content">
-			  {{ content }}
-   		 </section>
-		<section id="footer">
-    	</section>
+		{% include navbar.html %}
+	<section>{{ content }}</section>
     
 	</body>
 </html>
