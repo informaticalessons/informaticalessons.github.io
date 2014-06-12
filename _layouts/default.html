@@ -21,10 +21,14 @@
 	  	<div class="table-of-contents">
 	  		{% include table-of-contents.html %}		    
 	  	</div>
-	  	{{ content  }}
+	  	<h4>{{page.title}}</h4>
+	  	{{content  }}
 	  </div> <!-- end .main -->
+
+	  {% include disqus.html %}	
 	</div><!-- /end #page --> 
+
 	</body>
 
-
+		    
 </html>
