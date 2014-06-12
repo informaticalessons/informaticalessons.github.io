@@ -1,0 +1,13 @@
+---
+layout: default
+title: Install Informatica Power Center Express
+category: Getting Started
+published: true
+permalink: install
+---
+
+[Download Informatica][pc express] Power Center Express. The download is 1.4 gb and took 25 mins to download.
+If you are using mac, I suggest using [virtualbox][virtualbox] with windows 7 32 bit image (x86).
+
+[pc express]:	https://community.informatica.com/solutions/pcexpress	"Informatica download"
+[virtualbox]:	https://www.virtualbox.org/	"VirtualBox"

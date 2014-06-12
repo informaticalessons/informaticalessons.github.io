@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{% include stylesheets.html %}		    
+	<title>{{ page.title }}</title>
+	</head>
+	
+
+	<body>
+	<div id="page"> 
+	  <div class="header">
+	  	<div class="title">
+	  		Informatica Lessons
+	  	</div> <!-- end .title -->
+	  </div><!-- /end .header -->
+
+	  <div class="main">
+	  	<div class="table-of-contents">
+	  		{% include table-of-contents.html %}		    
+	  	</div>
+	  	{{content  }}
+	  </div> <!-- end .main -->
+	</div><!-- /end #page --> 
+	</body>
+
+
+</html>
